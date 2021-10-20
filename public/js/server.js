@@ -5,6 +5,14 @@ const nodemailer = require("nodemailer");
 
 const PORT = process.env.PORT || 5000;
 
+var dotenv =require('dotenv');
+dotenv.config();
+var ap_user = process.env.AP_UserTest;
+var ap_password = process.env.AP_PasswordTest;
+// var ap_user = process.env.AP_User;
+// var ap_password = process.env.AP_Password;
+
+
 // Middleware
 app.use(express.static('public'))
 app.use(express.json())
@@ -20,8 +28,8 @@ app.post('/', (req, res)=>{
         service: 'gmail',
         auth: {
             // **Real information needs to be stored in environment variables**
-            user: 'bhunt@prioritygroup.com',
-            pass: 'quality'
+            user: ap_user,
+            password: ap_password
         }
     })
 
