@@ -155,12 +155,14 @@ body {
     padding: 10px;
 }
 
-#fname {
+#fullName {
     margin-bottom: 3px;
+    text-align: center;
 }
 
-#lname {
+#company {
     margin-bottom: 3px;
+    text-align: center;
 }
 
 #email {
@@ -169,6 +171,13 @@ body {
 
 #phone {
     margin-bottom: 3px;
+}
+
+#message {
+    border-top: 15px solid transparent;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    text-align: left;
 }
 
 #btn-form-submit {
