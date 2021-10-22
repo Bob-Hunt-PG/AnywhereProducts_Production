@@ -155,6 +155,11 @@ body {
     padding: 10px;
 }
 
+#email-phone {
+    color: black;
+    text-align: center;
+}
+
 #fullName {
     margin-bottom: 3px;
     text-align: center;
