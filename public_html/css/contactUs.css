@@ -4,7 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-color: black;
+    background-color: white;
 }
 
 #main {
@@ -117,11 +117,12 @@ body {
     list-style: none;
 }
 
-#navlinkHome {
+#navlnkHome {
     margin-top: 15px;
     color:darkgrey;
     list-style: none;
 }
+
 
 /* **MAIN CONTENT** */
 .img-container {
@@ -155,7 +156,7 @@ body {
     color: white;
 }
 .form-header {
-    color: #648f01e5;
+    color: #84bd00;
     font-size: 36px;
     padding: 10px;
 }
@@ -266,6 +267,3 @@ body {
     color: white;
     justify-content: center;
 }
-
-
-
