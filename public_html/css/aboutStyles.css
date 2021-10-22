@@ -1,0 +1,23 @@
+body {
+    /* eliminate preformated spacing */
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+}
+
+/* **HEADER** */
+#navlnkHome {
+    margin-top: 15px;
+    color:darkgrey;
+    list-style: none;
+}
+
+.proposition {
+    color: #669200;
+    font-weight: bold;
+}
+
+/* **FOOTER** */
+
