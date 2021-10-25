@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <title>Anywhere Products, LLC</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/landingStyles.css">
 </head>
 <body>
     <div class="container-fluid" id="main">
@@ -25,7 +26,7 @@
 
                 <div class="col-12 col-md-3 col-lg-3" id="logo">
                     <!-- Logo Here -->
-                    <img src="../images/Anywhere-Products.jpg" class="img-responsive" alt="Anywhere Products logo" width="100%" > 
+                    <img src="./images/Anywhere-Products.jpg" class="img-responsive" alt="Anywhere Products logo" width="100%" > 
                 </div>
 
                 <div class="col-12 col-md-9 col-lg-9" id="nav-sect">
@@ -45,13 +46,13 @@
                             </div>
 
                             <div class="nav-item">
-                                <a class="nav-link" id="navlnk2">
+                                <a class="nav-link" id="navlnk2" href="./Pages/aboutUs.html">
                                     About
                                 </a>
                             </div>
 
                             <div class="nav-item">
-                                <a class="nav-link" id="navlnk3" href="#form-container">
+                                <a class="nav-link" id="navlnk3" href="./Pages/contactform.html">
                                     Contact Us
                                 </a>
                             </div>
@@ -62,102 +63,47 @@
             </div>
         </div>
 
-
         <!-- ** MAIN CONTENT ** -->
         <div class="img-container" id="content-container">
             <div class="splash-row" id="content-row">
-                <img src="../images/spidermower5.jpg" alt="Spider mower horizontal" id="mower"/>
+                <img src="./images/spidermower5.jpg" alt="Spider mower horizontal" id="mower"/>
             </div>
-        </div>
-
-
-        <!-- ** FORM ** -->
-        <div class="container" id="form-container">
-
-            <div class="row" id="form-row">
-                <div class="col-sm-12" id="form">
-                    <!-- Form Here -->
-
-                    <!-- Form 1 -->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="well well-sm">
-                                    <form class="form-horizontal" id="contact-form" method="POST" action="send" enctype="multipart/form-data">
-                                        <fieldset class="fieldset" id="fieldset">
-                                            <legend class="text-center form-header">Contact us **COMING SOON** Please check back later.</legend>
-                                            <div class="text-center form-header">Email: anywherepdt@gmail.com    Phone: (317)504-3206</div>
-                    
-                                            <div class="form-group" id="form-grp">
-                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                                <div class="col-md-12">
-                                                    <input id="fullName" name="name" type="text" placeholder="Full Name" class="form-control" required>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group" id="form-grp">
-                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                                <div class="col-md-12">
-                                                    <input id="email" name="email" type="text" placeholder="Email Address" class="form-control" required>
-                                                </div>
-                                            </div>
-                    
-                                            <div class="form-group" id="form-grp">
-                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                                <div class="col-md-12">
-                                                    <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control" required>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group" id="form-grp">
-                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                                <div class="col-md-12">
-                                                    <input id="company" name="company" type="text" placeholder="Company Name" class="form-control">
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="form-group" id="form-grp">
-                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                                <div class="col-md-12">
-                                                    <textarea class="form-control" id="message" name="message" placeholder="Enter your message for us here. We will get back to you within 2 business days." rows="7"></textarea>
-                                                </div>
-                                            </div>
-                    
-                                            <div class="form-group" id="form-grp">
-                                                <div class="col-md-12 text-center">
-                                                    <!-- <button type="submit" value="submit" class="btn btn-primary btn-lg" id="btn-form-submit">Submit</button> -->
-                                                </div>
-                                            </div>
-                                            
-                                        </fieldset>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                </div>
-            </div>
-
         </div>
 
         <!-- **FOOTER** -->
         <div class="container" id="footer-container"> 
             <div class="row" id="footer-row">
 
-                <div class="col-sm-4" id="footer-div2">
+                <div class="col-sm-3" id="footer-div1">
+                    <div class="row" id="socialMedia">Spider Mower Support:</div>    
+                    <div class="row" >
+                        <a id="facebook" href="https://spidermowerusa.com/warranty/" target="_blank" id="soc-1-content">Warranty</a>
+                    </div>
+
+                    <div class="row" >
+                        <a id="facebook" href="https://spidermowerusa.com/resources/#spider-manuals" target="_blank" id="soc-1-content">Owner's Manuals</a>
+                    </div> 
+
+                    <div class="row" >
+                        <a id="facebook" href="https://spidermowerusa.com/benefits/" target="_blank" id="soc-1-content">Benefits</a>
+                    </div>                  
+                  
+                </div>
+
+                <div class="col-sm-3" id="footer-div2">
                     <div class="row" id="socialMedia">Social media:</div>    
                     <div class="row" >
                         <a id="facebook" href="https://www.facebook.com/AnywhereproductsLLC/?ref=page_internal" target="_blank" id="soc-1-content">Facebook</a>
                     </div>                  
                 </div>
 
-                <div class="col-sm-4" id="footer-div3">
+                <div class="col-sm-3" id="footer-div3">
                     <div class="row" id="coName">Anywhere Products LLC</div>
                     <div class="row" id="address-1">4275 Weber Hill Road</div>
                     <div class="row" id="address-2">Trafalgar, IN 46181</div>
                 </div>
 
-                <div class="col-sm-4" id="footer-div4">
+                <div class="col-sm-3" id="footer-div4">
                     <div class="row" id="contactUs">Contact us:</div>
                     <div class="row" id="phone">317-504-3206</div>
                     <div class="row" id="email">anywherepdt@gmail.com</div>
