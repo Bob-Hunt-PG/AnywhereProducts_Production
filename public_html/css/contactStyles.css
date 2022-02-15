@@ -1,10 +1,10 @@
 #form-container {
     margin-top: 1rem;
-    height: 55vh;
+    height: auto;
 }
 
 #contact-container {
-    height: 55vh;
+    height: auto;
 }
 
 #legend {
