@@ -221,6 +221,14 @@ body {
     justify-content: center;
 }
 
+#instagram {
+    align-content: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+
 #coName {
     align-content: center;
     border-top: 1rem solid black;
