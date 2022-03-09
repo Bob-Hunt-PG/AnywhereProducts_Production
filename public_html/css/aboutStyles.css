@@ -10,8 +10,7 @@ body {
 /* **HEADER** */
 #navlnkHome {
     margin-top: 15px;
-    /* color:darkgrey; */
-    color: red;
+    color:darkgrey;
     list-style: none;
 }
 
