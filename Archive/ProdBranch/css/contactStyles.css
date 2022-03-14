@@ -1,0 +1,26 @@
+#form-container {
+    margin-top: 1rem;
+    height: auto;
+}
+
+#contact-container {
+    height: auto;
+}
+
+#legend {
+    height: 8vh;
+}
+
+#message {
+    height: 10vh;
+}
+
+#navlinkHome {
+    margin-top: 15px;
+    color:darkgrey;
+    list-style: none;
+}
+
+#footer-container {
+    height: 20vh;
+}
