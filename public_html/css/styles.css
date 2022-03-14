@@ -139,7 +139,7 @@ body {
 }
 
 #image-row {
-    width: 100vh;
+    width: 100vw;
     height: calc(100vw*0.3625);
     overflow-x: hidden;
     background-color: Black;
