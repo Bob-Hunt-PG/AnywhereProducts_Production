@@ -124,37 +124,14 @@ body {
 }
 
 /* **MAIN CONTENT** */
-#image-container {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-    /* height: 70vh; */
-    height: fit-content;
-    background-color: black;
-    width: 100%;
-}
-
-#image-row {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    background-color: Black;
+.img-container {
+    height: 70vh;
 }
 
 #mower {
-    display: block;
-    /* overflow-x: hidden; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     z-index: 2;
-    background-repeat: no-repeat;
-    /* height: 100%; */
-    width: 100vw;
-    height: calc(100vw*0.3625);
+    width: 100vw
+    
 }
 
    
@@ -250,6 +227,7 @@ body {
     color: white;
     justify-content: center;
 }
+
 
 #coName {
     align-content: center;
