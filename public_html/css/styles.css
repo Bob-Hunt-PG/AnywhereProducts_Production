@@ -154,8 +154,8 @@ body {
     z-index: 2;
     background-repeat: no-repeat;
     /* height: 100%; */
-    width: 100vw;
-    height: calc(100vw*0.3625);
+    /* width: 100vw; */
+    /* height: calc(100vw*0.3625); */
     object-fit: contain;
 }
 
