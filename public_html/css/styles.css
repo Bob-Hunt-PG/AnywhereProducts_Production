@@ -128,7 +128,12 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 70vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    /* height: 70vh; */
+    height: fit-content;
     background-color: black;
     width: 100%;
 }
@@ -142,13 +147,14 @@ body {
 
 #mower {
     display: block;
-    overflow-x: hidden;
-    margin-left: auto;
-    margin-right: auto;
+    /* overflow-x: hidden; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     z-index: 2;
     background-repeat: no-repeat;
-    height: 100%;
-    
+    /* height: 100%; */
+    width: 100vw;
+    height: calc(100vw*0.3625);
 }
 
    
