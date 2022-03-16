@@ -143,6 +143,7 @@ body {
     height: calc(100vw*0.3625);
     overflow-x: hidden;
     background-color: Black;
+    object-fit: contain;
 }
 
 #mower {
@@ -154,7 +155,8 @@ body {
     background-repeat: no-repeat;
     /* height: 100%; */
     width: 100vw;
-    height: calc(100vw*0.3625);
+    /* height: calc(100vw*0.3625); */
+    object-fit: contain;
 }
 
    
