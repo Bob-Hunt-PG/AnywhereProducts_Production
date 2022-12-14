@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Bob-Hunt-PG/Project0001#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemailer": "^6.7.0"
   },
   "devDependencies": {
